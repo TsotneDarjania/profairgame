@@ -1,0 +1,13 @@
+
+Kaju.png
+size: 151, 127
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+images/Kaju
+  rotate: false
+  xy: 2, 2
+  size: 147, 123
+  orig: 149, 125
+  offset: 1, 1
+  index: -1

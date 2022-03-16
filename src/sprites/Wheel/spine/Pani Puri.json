@@ -1,0 +1,50 @@
+{
+    "skeleton": {
+        "hash": "4tmiI0E0R9I",
+        "spine": "3.8-from-4.0.52",
+        "x": 544.82,
+        "y": 814.24,
+        "width": 138,
+        "height": 105,
+        "images": "",
+        "audio": ""
+    },
+    "bones": [
+        { "name": "root" },
+        { "name": "Pani Puri", "parent": "root", "x": 0, "y": 0 }
+    ],
+    "slots": [{ "name": "Pani Puri", "bone": "Pani Puri", "attachment": "images/Pani Puri" }],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "Pani Puri": { "images/Pani Puri": { "y": 0.5, "width": 138, "height": 105 } }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "Pani Puri": {
+                    "color": [
+                        { "color": "ffffffff" },
+                        { "time": 0.3333, "color": "ff9292ff", "curve": "stepped" },
+                        { "time": 1, "color": "ff9292ff" },
+                        { "time": 1.3333, "color": "ffffffff" }
+                    ]
+                }
+            },
+            "bones": {
+                "Pani Puri": {
+                    "scale": [
+                        {},
+                        { "time": 0.3333, "x": 1.2, "y": 1.2 },
+                        { "time": 0.6667 },
+                        { "time": 1, "x": 1.2, "y": 1.2 },
+                        { "time": 1.3333 }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+
+Papadums.png
+size: 151, 136
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Papadums
+  rotate: false
+  xy: 2, 2
+  size: 147, 132
+  orig: 152, 137
+  offset: 3, 2
+  index: -1

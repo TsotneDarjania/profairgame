@@ -1,0 +1,47 @@
+{
+    "skeleton": {
+        "hash": "ZqVxCNRDiME",
+        "spine": "3.8-from-4.0.52",
+        "x": 305.57,
+        "y": 598.92,
+        "width": 145,
+        "height": 122,
+        "images": "",
+        "audio": ""
+    },
+    "bones": [{ "name": "root" }, { "name": "Samosa", "parent": "root", "x": 0, "y": 0 }],
+    "slots": [{ "name": "Samosa", "bone": "Samosa", "attachment": "images/Samosa" }],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "Samosa": { "images/Samosa": { "x": 0.5, "width": 145, "height": 122 } }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "Samosa": {
+                    "color": [
+                        { "color": "ffffffff" },
+                        { "time": 0.3333, "color": "ff9292ff", "curve": "stepped" },
+                        { "time": 1, "color": "ff9292ff" },
+                        { "time": 1.3333, "color": "ffffffff" }
+                    ]
+                }
+            },
+            "bones": {
+                "Samosa": {
+                    "scale": [
+                        {},
+                        { "time": 0.3333, "x": 1.2, "y": 1.2 },
+                        { "time": 0.6667 },
+                        { "time": 1, "x": 1.2, "y": 1.2 },
+                        { "time": 1.3333 }
+                    ]
+                }
+            }
+        }
+    }
+}

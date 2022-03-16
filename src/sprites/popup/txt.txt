@@ -1,0 +1,34 @@
+.Lorem_Ipsum_is_simply_dummy_text_of_the_printin {
+  font-size: 83px;
+  font-family: "Arial";
+  color: rgb(225, 221, 230);
+  font-style: italic;
+  line-height: 1.47;
+  text-align: center;
+  -moz-transform: matrix( 0.37790167257983,0,0,0.37795275590551,0,0);
+  -webkit-transform: matrix( 0.37790167257983,0,0,0.37795275590551,0,0);
+  -ms-transform: matrix( 0.37790167257983,0,0,0.37795275590551,0,0);
+  position: absolute;
+  left: 22.41px;
+  top: 350.793px;
+  width: 1817.159px;
+  height: 566px;
+  z-index: 404;
+}
+.Game_Guide {
+  font-size: 170.786px;
+  font-family: "Arial";
+  color: rgb(136, 157, 245);
+  line-height: 1.067;
+  text-align: center;
+  text-shadow: 0px 1px 4px rgba(48, 8, 95, 0.004);
+  -moz-transform: matrix( 0.29391028076407,0,0,0.29387331973007,0,0);
+  -webkit-transform: matrix( 0.29391028076407,0,0,0.29387331973007,0,0);
+  -ms-transform: matrix( 0.29391028076407,0,0,0.29387331973007,0,0);
+  position: absolute;
+  left: 376.343px;
+  top: 255.386px;
+  z-index: 118;
+}
+
+

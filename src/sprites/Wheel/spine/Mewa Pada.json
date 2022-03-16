@@ -1,0 +1,48 @@
+{
+    "skeleton": {
+        "hash": "jpRPQrv/ogA",
+        "spine": "3.8-from-4.0.52",
+        "x": 64.31,
+        "y": 606.92,
+        "width": 108,
+        "height": 96,
+        "images": "",
+        "audio": ""
+    },
+    "bones": [
+        { "name": "root" },
+        { "name": "Mewa Pada", "parent": "root", "x": 0, "y": 0 }
+    ],
+    "slots": [{ "name": "Mewa Pada", "bone": "Mewa Pada", "attachment": "images/Mewa Pada" }],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": { "Mewa Pada": { "images/Mewa Pada": { "width": 108, "height": 96 } } }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "Mewa Pada": {
+                    "color": [
+                        { "color": "ffffffff" },
+                        { "time": 0.3333, "color": "91ffadff", "curve": "stepped" },
+                        { "time": 1, "color": "91ffadff" },
+                        { "time": 1.3333, "color": "ffffffff" }
+                    ]
+                }
+            },
+            "bones": {
+                "Mewa Pada": {
+                    "scale": [
+                        {},
+                        { "time": 0.3333, "x": 1.2, "y": 1.2 },
+                        { "time": 0.6667 },
+                        { "time": 1, "x": 1.2, "y": 1.2 },
+                        { "time": 1.3333 }
+                    ]
+                }
+            }
+        }
+    }
+}
