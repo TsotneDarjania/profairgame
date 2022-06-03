@@ -8,7 +8,6 @@ import Arrow from "@/ui/Arrow";
 import { SymbolNamesEnum } from "@/data/symbolNames";
 import PopUp from "@/ui/popUp/PopUp";
 
-
 export default class GameScene extends Phaser.Scene {
     private wheel: Wheel;
     private rotateBackground: Phaser.GameObjects.Rectangle;
@@ -25,7 +24,7 @@ export default class GameScene extends Phaser.Scene {
 
     protected create() {
         this.addBackground();
-        this.addCharacter(CharactersEnum.GIRL);
+        this.addCharacter(CharactersEnum.BOY);
         this.addStand();
         this.addWheel();
         this.addArrow();

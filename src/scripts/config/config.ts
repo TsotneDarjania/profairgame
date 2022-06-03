@@ -10,7 +10,6 @@ export const deviceConfig: IDevice = device.type === "desktop" ? deviceProps.des
 console.log(device.type)
 const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.WEBGL,
-
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
